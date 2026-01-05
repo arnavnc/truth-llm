@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Large generated artifacts
+outputs/*.npz
+outputs/runs_*.jsonl
+
+# Aggregated tables (optional - keep if you want tracked results)
+# outputs/agg_*.csv
+
+# Keep figures (comment this out if you don't want to track plots)
+# outputs/figures*/
+# outputs/figures_ci95*/
+# outputs/figures_compare_ci95*/
+# outputs/figures_byrel_ci95*/
+
+# Local scratch
+tmp/
